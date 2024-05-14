@@ -1,0 +1,29 @@
+.text_indent{
+    text-indent: 50px;
+}
+/* line_height */
+.line_height{
+    width: 500px;
+    text-align: justify;
+}
+.lh_small{
+    line-height: 0.8;
+    /* Courier, monospace is fallback font for maximum compatibility */
+    
+}
+.font1{
+    font-family: 'Courier New', Courier, monospace; 
+    font-style: italic;
+    font-weight: bold;
+}
+.lh_big{
+    line-height: 2.0;
+}
+.font_em{
+    /* 1em = 16px */
+    font-size: 0.875em;
+}
+/* font_responsive */
+.font_responseive{
+    font-size: 3vw;
+}

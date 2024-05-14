@@ -1,0 +1,19 @@
+#employee{
+    border-collapse: collapse;
+    width: 100%;
+    border-color: beige;
+}
+#employee th, #employee td{
+    padding: 8px 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+#employee th{
+    background-color: aqua;
+}
+#employee tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#employee tr:hover{
+    background-color: #ddd;
+}
